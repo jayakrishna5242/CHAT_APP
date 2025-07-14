@@ -1,0 +1,6 @@
+{
+  "name": "Copy of Real-Time Chat App",
+  "description": "A WhatsApp-style real-time chat application with a separate frontend (React, Tailwind CSS) and backend (Node.js, Express, MongoDB). The app is now structured into frontend and backend directories.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
