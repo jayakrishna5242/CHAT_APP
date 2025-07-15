@@ -1,27 +1,24 @@
-# Node modules
+# === Node modules ===
 node_modules/
 
-# Build output
+# === Build outputs ===
 dist/
 build/
 
-# Logs
+# === Logs ===
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment variables
+# === Environment variables ===
 .env
-.env.*   # ignore all env variants like .env.production, .env.local
+.env.*
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
 
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# Vite cache
-.vite/
-
-# IDE-specific
+# === IDE configs ===
 .vscode/
 .idea/
 *.suo
@@ -29,9 +26,14 @@ Thumbs.db
 *.njsproj
 *.sln
 
-# Optional: macOS system files
-*.DS_Store
-
-# Optional: Windows system files
+# === OS files ===
+.DS_Store
+Thumbs.db
 ehthumbs.db
 Icon?
+
+# === Vite cache ===
+frontend/.vite/
+
+# === TypeScript ===
+*.tsbuildinfo
